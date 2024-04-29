@@ -9,7 +9,7 @@ app.use(cors())
 //POSTMAN
 app.post("/deploy", async(req, res) => {
 
-})
+});
 
 app.post("/deploy", (req, res) => {
     const repourl = req.body.repourl;
